@@ -1,0 +1,16 @@
+{
+  "holdThresholdMs": 300,
+  "logButtons": true,
+  "buttons": {
+    "3": {
+      "name": "Back (rear thumb button)",
+      "tap":  { "type": "spaceLeft" },
+      "hold": { "type": "keys", "keyCode": 105, "modifiers": ["control", "option"] }
+    },
+    "4": {
+      "name": "Forward (front thumb button)",
+      "tap":  { "type": "spaceRight" },
+      "hold": { "type": "keys", "keyCode": 105, "modifiers": ["control", "option"] }
+    }
+  }
+}
